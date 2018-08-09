@@ -1,8 +1,9 @@
-function GeometricShape(edges) {
-	this.edges = edges;
+class GeometricShape {
+	constructor (edges) {
+		this.edges = edges;
+	}
 
-}
-
-GeometricShape.prototype.draw = funtion () {
-	// Draw
+	draw() {
+		// Draw Shape
+	}
 }
